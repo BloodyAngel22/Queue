@@ -32,7 +32,7 @@ int pull(Queue& q) {
 
 void printQueue(const Queue& q) {
 	for (Element* cur = q.head; cur != NULL; cur = cur->next) {
-		printf("%d - ", cur->data);
+		printf("%d -> ", cur->data);
 	}
-	printf("\b\b   \n");
+	printf("\b\b\b   \n");
 }
